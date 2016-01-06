@@ -1,0 +1,12 @@
+datagrid:
+    general:
+        next: Next
+        previous: Previous
+        emptyTable: "No results to show"
+        gridInfo: "Total of _TOTAL_ showing (_START_ to _END_)"
+        gridNoRecords: "No records..."
+        gridProcessing: "Loading..."
+        gridLengthMenu: "Show _MENU_ records"
+        gridSearchBox: "Search"
+        gridFilteredText: ''
+        gridAllResults: 'All'

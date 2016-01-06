@@ -1,0 +1,22 @@
+{
+  "name": "oakrudi/data-grid-bundle",
+  "type": "symfony-bundle",
+  "description": "Jquery Datatables Bundle",
+  "keywords": ["Datatables", "symfony", "bundle"],
+  "homepage": "http://ventureoak.com",
+  "license": " Apache License 2.0",
+  "authors": [
+    {
+      "name": "Rúdi Rocha",
+      "email": "rrocha@ventureoak.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/symfony": "~2.7",
+  },
+  "autoload": {
+    "psr-0": { "Ventureoak\\DataGridBundle": "" }
+  },
+  "target-dir": "Ventureoak/DataGridBundle"
+}

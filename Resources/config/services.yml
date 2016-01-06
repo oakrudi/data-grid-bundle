@@ -1,0 +1,21 @@
+services:
+    #Factory
+    ventureoak.datagrid.factory:
+        class: Ventureoak\DataGridBundle\DataGridFactory
+
+    #define abstract service for compiler pass
+    ventureoak.datagrid.strategy.abstract:
+        public: false
+        abstract: true
+        arguments:
+            - "@doctrine.orm.default_entity_manager"
+            - "@templating"
+            - "@translator"
+            - "@request_stack"
+    #sgrid strategy example
+
+    #user.strategy:
+        #class: AppBundle\Grids\Users
+        #parent: ventureoak.datagrid.strategy.abstract
+        #tags:
+        #  - { name: ventureoak.datagrid.strategy, alias: users }

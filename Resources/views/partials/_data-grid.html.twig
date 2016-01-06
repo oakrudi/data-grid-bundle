@@ -1,0 +1,7 @@
+<script src="{{ asset('assets/DataTables/dataTablesManager.js') }}"></script>
+<script>
+    $(document).ready(function () {
+        var params = {{table|raw}};
+        $("#{{ tableId }}").dataTablesManager('index', params);
+    });
+</script>
